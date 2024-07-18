@@ -24,7 +24,6 @@ import Twoportfolio from '@/components/portfoliTwo/Twoportfolio'
 import There from '@/components/there/There'
 import Four from '@/components/Four/Four'
 import Svyaz from '@/components/zvyaz/Svyaz'
-import Contact from '@/components/contact/Contact'
 import Aloqa from '@/components/Aloqa/Aloqa'
 import Footer from '@/components/footer/Footer'
 
