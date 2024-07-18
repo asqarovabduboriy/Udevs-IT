@@ -4,8 +4,8 @@ import Image from 'next/image'
 import bg from '../../assets/images/goodzone_app.png'
 import delver from '../../assets/images/goodzone_title.png'
 import icon from '../../assets/images/godzon_icon.svg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 type data = {
@@ -20,7 +20,7 @@ type Props = {
 
 const There: React.FC<Props> = ({data}) => {
     useEffect(() => {
-        AOS.init({
+        Aos.init({
             duration: 1000,
             once: true
         });

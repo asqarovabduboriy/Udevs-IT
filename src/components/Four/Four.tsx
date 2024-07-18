@@ -4,8 +4,8 @@ import Image from 'next/image'
 import bg from '../../assets/images/iman_bg.png'
 import delver from '../../assets/images/iman_title.svg'
 import icon from '../../assets/images/iman_icon.svg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import img8 from '../../assets/images/por2.svg'
 import img9 from '../../assets/images/por3.svg'
 import img4 from '../../assets/images/navbarImg/phone.svg'
@@ -20,7 +20,7 @@ type data = {
 
 const Four: React.FC = () => {
     useEffect(() => {
-        AOS.init({
+        Aos.init({
             duration: 1000,
             once: true
         });

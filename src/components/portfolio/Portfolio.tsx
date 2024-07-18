@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect } from 'react'
-import AOS from 'aos'
+import Aos from 'aos'
 import 'aos/dist/aos.css'
 import bg from '../../assets/images/bg_delver.png'
 import Image from 'next/image'
@@ -20,7 +20,7 @@ interface data {
 const Portfolio: React.FC<Propsdata> = ({ data }) => {
 
     useEffect(() => {
-        AOS.init({
+        Aos.init({
             duration: 1000,
             easing: 'ease-in-out',
             once: true

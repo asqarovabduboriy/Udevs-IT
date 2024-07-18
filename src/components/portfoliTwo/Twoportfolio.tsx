@@ -4,8 +4,8 @@ import Image from 'next/image'
 import bg from '../../assets/images/sms_png.png'
 import Sms from '../../assets/images/Sms_png.svg'
 import icon from '../../assets/images/sms_iocn.svg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 interface data {
     id: number
@@ -19,7 +19,7 @@ interface props {
 
 const Twoportfolio: React.FC<props> = ({data}) => {
     useEffect(() => {
-        AOS.init({
+        Aos.init({
             duration: 1000,
             once: true
         });
