@@ -1,0 +1,241 @@
+$primary: #0077ff;
+
+header {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 1px 0 #e5e9f2;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  padding: 15px 0;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      list-style: none;
+
+      li {
+        a {
+          padding: 10px 0;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 20px;
+          color: var(--dark);
+          border-radius: 2px;
+          transition: all 0.1s ease-in-out;
+          text-decoration: none;
+          border-bottom: 2px solid transparent;
+
+          &:hover {
+            border-bottom: 2px solid $primary;
+          }
+        }
+      }
+
+      button {
+        min-width: 112px;
+        max-width: 248px;
+        text-align: center;
+        border-radius: 8px;
+        background-color: $primary;
+        transform: perspective(800px);
+        transition: all 0.2s ease-in-out;
+        padding: 10px 16px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        transform: perspective(800px) translateZ(43px) !important;
+      }
+    }
+  }
+}
+
+.wrapper_one_modal_two{
+    position: fixed;
+    top: 15%;
+    left: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 15px;
+    z-index: 999
+}
+
+.wrapper_one_modal {
+  position: fixed;
+  top: 15%;
+  left: 550px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 15px;
+  z-index: 999;
+
+  p{
+    margin-bottom: 20px;    
+    color:#ccc;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+
+.wrapper_modal_data{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 6px;
+
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color:#ccc;
+    }
+
+    &:hover{
+       background-color:$primary;
+       padding: 6px 6px ;
+       border-radius: 10px;
+       transition: all 0.3s ease-in-out;
+       p{
+        color:#fff;
+       }
+      
+    }
+
+   
+}
+.data_one_img{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    background-color: #f4f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+ }
+ 
+}
+
+.dats_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper_one_modal_two{
+
+  p{
+    margin-bottom: 20px;    
+    color:#ccc;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    font-family: "Manrope", sans-serif;
+  }
+}
+
+.brand_one{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 6px ;
+
+  p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color:#ccc;
+    font-family: "Manrope", sans-serif;
+    margin-top: 15px;
+  }
+}
+
+.div_rektangle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 165, 0, 0.2);
+  border-radius: 50%;
+
+  span{
+    color:orangered;
+  }
+}
+
+.brand_one:hover{
+  background-color: $primary;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  p{
+    color:#fff;
+  }
+ 
+  .div_rektangle{
+    background-color:orange;
+    transition: all 0.3s ease-in-out;
+  }
+  
+}
+.brand_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.language{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 6px;
+
+  p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color:#000;
+    font-family: "Manrope", sans-serif;
+    margin-top: 15px;
+  }
+}
+
+.language:hover{
+  background-color: $primary;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  p{
+    color:#fff;
+  }
+ 
+}
