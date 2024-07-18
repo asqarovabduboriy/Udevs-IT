@@ -4,7 +4,7 @@ import kompyuter from '../../assets/images/kompyuter.png'
 import bg from '../../assets/images/bg_png.png'
 import Image from 'next/image'
 import { title } from 'process'
-import AOS from 'aos';
+import Aos from 'aos'
 import 'aos/dist/aos.css'
 import img1 from "../../assets/images/ar1.svg"
 import img2 from "../../assets/images/ar2.svg"
@@ -24,7 +24,7 @@ interface data {
 const Construktor:React.FC = () => {
 
     useEffect(() => {
-        AOS.init({duration:1000,once:true});
+        Aos.init({duration:1000,once:true});
     }, [])
 
     const data = [
