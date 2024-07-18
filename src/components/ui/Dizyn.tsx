@@ -13,7 +13,7 @@ import img8 from '../../assets/images/ui6.svg'
 import img9 from '../../assets/images/skills/figma.svg'
 import img10 from '../../assets/images/skills/sketch.svg'
 import img11 from '../../assets/images/skills/Lottie.svg'
-import img12 from '../../assets/images/skills/illustrator.svg'
+import img12 from '../../assets/images/skills/Illustrator.svg'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
