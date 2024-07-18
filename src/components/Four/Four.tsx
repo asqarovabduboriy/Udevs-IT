@@ -61,7 +61,7 @@ const Four: React.FC = () => {
                 <div className="container" data-aos="fade-up">
                     <div className="big_wrapper_portfolio">
                         <div className='text_wrapper_portfolio'>
-                            <Image src={delver} alt="delver" width={252} height={49} className='delver' style={{marginLeft:"-50px"}}/>
+                            <Image src={delver} alt="delver" width={252} height={49} className='delver' style={{ marginLeft: "-50px" }} />
                             <div className="icons_wrapper " style={{ background: "rgba(1, 202, 176, 0.2)", color: "#01CAB0", width: "170px" }}>
                                 <Image src={icon} alt="icon" width={25} height={25} />
                                 <span>Finance</span>

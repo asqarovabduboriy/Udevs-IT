@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import kompyuter from '../../assets/images/kompyuter.png'
 import bg from '../../assets/images/bg_png.png'
 import Image from 'next/image'
-import { title } from 'process'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import img1 from "../../assets/images/ar1.svg"
