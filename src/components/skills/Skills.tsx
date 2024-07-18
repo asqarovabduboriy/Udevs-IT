@@ -60,8 +60,8 @@ import Lottie from '../../assets/images/skills2/Lottie2.svg'
 interface Data {
     id: number,
     img: string,
-    text: string,
     category: string
+    title: string
 }
 
 const Skills: React.FC = () => {
@@ -362,9 +362,7 @@ const Skills: React.FC = () => {
     ]
 
     const card = data?.map((item: Data) => (
-        <div
-            className={`skills__card ${item.category.split("/").join("")} ${value.trim() ? value !== item.category ? "none_active" : "" : ""}`}
-            key={item.id}>
+        <div className={`skills__card ${item.category.split("/").join("")} ${value.trim() ? value !== item.category ? "none_active" : "" : ""}`} key={item.id}>
             <Image src={item.img} alt={item.title} width={24} height={24} />
             <span>{item.title}</span>
         </div>
