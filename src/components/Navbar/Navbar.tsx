@@ -50,9 +50,9 @@ const Navbar: React.FC<NavbarProps> = ({data}) => {
                             <li onMouseEnter={() => setOpen(!open)}><Link href="#direction">Напрaвление</Link></li>
                             <li><Link href="#tools">Инструменты</Link></li>
                             <li><Link href="#clients">Клиенты</Link></li>
-                            <li onMouseEnter={() => setOpenModal(!openModal)} ><Link href="#portfolio">Портфолио</Link></li>
+                            <li onMouseEnter={() => setOpenModal(!openModal)} ><Link href="#Delever">Портфолио</Link></li>
                             <li onMouseEnter={() => setOpenModalTwo(!openModalTwo)} ><Link href="#language">Язык</Link></li>
-                            <button>Связаться</button>
+                            <Link href="#contact"><button >Связаться</button></Link>
                         </ul>
                     </nav>
                 </div>

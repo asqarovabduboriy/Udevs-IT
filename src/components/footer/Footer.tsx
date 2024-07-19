@@ -5,7 +5,7 @@ import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <footer className='footer' >
+        <footer className='footer'  >
             <div className="container">
                 <div className='logo_footer'>
                     <Image src={logo} alt="logo" width={100} height={100} />
